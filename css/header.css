@@ -22,7 +22,7 @@
 .nav__a {
     font-size: 16px;
     font-weight: 400;
-    color: var(--main-txt-color);
+    color: var(--nav-color);
     text-decoration: none;
 }
 

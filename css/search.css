@@ -1,9 +1,9 @@
 .search {
-    height: 726px;
+    height: 654px;
     background-image: url(../image/human.png);
     background-repeat: no-repeat;
     background-position-x: right;
-    margin: 0 105px 72px 80px;
+    margin: 0 105px 270px 80px;
     display: flex;
     flex-direction: column;
 }
@@ -56,6 +56,10 @@
 .search__select {
     width: 220px;
     height: 52px;
+    background: url(../image/icons/arrow.png) no-repeat white;
+    appearance: none;
+    background-position-x: 87%;
+    background-position-y: 60%;
     border: 0.8px solid #AFB0B9;
     box-sizing: border-box;
     border-radius: 6px;
@@ -81,7 +85,7 @@
     width: 180px;
     height: 52px;
     margin-left: 110px;
-    background: var(--main-orange);
+    background-color: var(--main-orange);
     border-radius: 8px;
     border: none;
     font-family: Mulish;
