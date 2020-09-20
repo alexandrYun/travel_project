@@ -1,0 +1,84 @@
+.stories {
+    height: 684px;
+    margin: 0 14.5% 196px 9%;
+    background-image: url(../image/stories-background.png);
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding-left: 97px;
+}
+
+.stories-title-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 56px;
+}
+
+.stories__title {
+    font-family: Playfair Display;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+}
+
+.stories-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stories-card {
+    width: 261px;
+    border-radius: 8px;
+}
+
+.stories-card__img {
+    height: 229px;
+    background-repeat: no-repeat;
+    border-radius: 8px 8px 0 0;
+}
+
+.stories-card__img_yoga {
+    background-image: url(../image/yoga.png);
+    background-position: center -30px;
+}
+
+.stories-card__img_food {
+    background-image: url(../image/food.png);
+    background-position: -7px -15px;
+}
+
+.stories-card__img_itza {
+    background-image: url(../image/itza.png);
+    background-position-x: -70px;
+}
+
+.stories-card__img_surf {
+    background-image: url(../image/surf.png);
+    background-position: -70px 0;
+}
+
+.stories-card__title {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 30px;
+    margin: 13px 5px 13px 0;
+}
+
+.stories-card__text {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    color: var(--main-txt-color);
+    margin-bottom: 23px;
+}
+
+.stories-card__link {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 28px;
+    color: var(--main-orange);
+    text-decoration: none;
+}

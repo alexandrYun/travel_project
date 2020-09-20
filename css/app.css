@@ -1,19 +1,18 @@
-.first-promo {
-    height: 550px;
-    margin: 0 13.5% 292px 9%;
-    background-image: url(../image/first-promo.png);
+.app {
+    height: 542px;
+    margin: 0 9.5% 248px 15%;
+    background-image: url(../image/app.png);
     background-repeat: no-repeat;
-    background-position-x: left;
+    background-position-x: right;
     display: flex;
-    justify-content: flex-end;
     align-items: center;
 }
 
-.first-promo-wrapper {
-    width: 481px;
+.app-wrapper {
+    width: 449px;
 }
 
-.first-promo__title {
+.app__title {
     font-family: Playfair Display;
     font-weight: 700;
     font-size: 36px;
@@ -22,11 +21,11 @@
     margin-bottom: 20px;
 }
 
-.first-promo__text-wrapper {
+.app__text-wrapper {
     width: 440px;
 }
 
-.first-promo__text {
+.app__text {
     font-family: Mulish;
     font-weight: 300;
     font-size: 17px;
@@ -35,7 +34,7 @@
     margin-bottom: 33px;
 }
 
-.first-promo__button {
+.app__button {
     width: 164px;
     height: 48px;
     background-color: var(--main-orange);

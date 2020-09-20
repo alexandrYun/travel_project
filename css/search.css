@@ -3,15 +3,15 @@
     background-image: url(../image/human.png);
     background-repeat: no-repeat;
     background-position-x: right;
-    margin: 0 105px 270px 80px;
+    margin: 0 6.5% 270px 5%;
     display: flex;
     flex-direction: column;
 }
 
 .title-wrapper {
-    width: 356px;
+    width: 25%;
     padding-top: 43px;
-    padding-left: 102px;
+    padding-left: 7%;
     margin-bottom: 64px;
 }
 
@@ -24,8 +24,8 @@
 }
 
 .finder-wrapper {
-    width: 470px;
-    padding-left: 110px;
+    width: 34%;
+    padding-left: 7%;
 }
 
 .search__finder-title {
@@ -69,6 +69,7 @@
     line-height: 32px;
     padding-left: 31px;
     color: #4A4C53;
+    cursor: pointer;
 }
 
 .search__select-option {
@@ -84,7 +85,7 @@
 .search__button {
     width: 180px;
     height: 52px;
-    margin-left: 110px;
+    margin-left: 7%;
     background-color: var(--main-orange);
     border-radius: 8px;
     border: none;
@@ -92,4 +93,5 @@
     font-weight: 500;
     font-size: 17px;
     color: white;
+    cursor: pointer;
 }

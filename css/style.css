@@ -2,7 +2,7 @@
 @import url(search.css);
 @import url(first_promo.css);
 @import url(destinations.css);
-@import url(second_promo.css);
+@import url(app.css);
 @import url(reviews.css);
 @import url(stories.css);
 @import url(footer.css);
@@ -13,13 +13,7 @@
 }
 
 .page {
-    height: 100vh;
     background-image: url(../image/background.png);
-    background-size: cover;
     background-repeat: no-repeat;
     padding-top: 35px;
 }
-
-/* font-family: 'Inter', sans-serif;
-font-family: 'Mulish', sans-serif;
-font-family: 'Playfair Display', serif; */

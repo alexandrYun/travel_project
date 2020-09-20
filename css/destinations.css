@@ -1,0 +1,86 @@
+.destinations {
+    margin: 0 15% 237px;
+}
+
+.destinations-title-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 56px;
+}
+
+.destinations__title {
+    font-family: Playfair Display;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+}
+
+.view {
+    width: 79px;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 17px;
+    color: var(--main-orange);
+    text-decoration: none;
+    background-image: url(../image/icons/view_arrow.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+    cursor: pointer;
+}
+
+.destinations-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.destinations__link {
+    text-decoration: none;
+}
+
+.destinations__card {
+    width: 261px;
+    height: 332px;
+    border-radius: 8px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.destinations__card_raja {
+    background-image: url(../image/raja.png);
+}
+
+.destinations__card_fanji {
+    background-image: url(../image/finjingshan.png);
+}
+
+.destinations__card_vevey {
+    background-image: url(../image/vevey.png);
+}
+
+.destinations__card_skadar {
+    background-image: url(../image/skadar.png);
+}
+
+.destinations-description {
+    border-radius: 0px 6px 0px 0px;
+    background-color: white;
+    padding: 11px 22px 0 0;
+}
+
+.destinations__place {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 25px;
+    color: #042521;
+}
+
+.destinations__country {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    color: #80918E;
+}
