@@ -113,6 +113,7 @@
     .app-wrapper {
         width: 100%;
         text-align: center;
+        max-width: 100%;
     }
 
     .app__text-wrapper {
