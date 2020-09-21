@@ -40,7 +40,8 @@
 }
 
 .destinations__card {
-    width: 261px;
+    width: 16vw;
+    max-width: 261px;
     height: 332px;
     border-radius: 8px;
     display: flex;

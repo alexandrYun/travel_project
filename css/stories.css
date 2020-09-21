@@ -27,7 +27,8 @@
 }
 
 .stories-card {
-    width: 261px;
+    width: 23%;
+    max-width: 261px;
     border-radius: 8px;
 }
 
