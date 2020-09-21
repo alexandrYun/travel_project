@@ -58,3 +58,7 @@
     background-color: var(--main-orange);
     color: white;
 }
+
+.header__menu {
+    display: none;
+}

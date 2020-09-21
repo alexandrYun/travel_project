@@ -1,0 +1,237 @@
+@media screen and (max-width: 768px) {
+    .page {
+        background-image: none !important;
+        padding-top: 0 !important;
+    }
+
+    .header {
+        margin: 0;
+        background-image: url(../image/footer_circle.png);
+        background-repeat: no-repeat;
+        background-position: 10px center;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .header__menu {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        margin: auto 10px;
+    }
+
+    .search {
+        height: fit-content;
+        margin: 0 0 80px 0;
+        background-size: contain;
+        background-position-y: 70px;
+        background-position-x: 140px;
+    }
+
+    .title-wrapper {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 43px;
+    }
+
+    .finder-wrapper {
+        width: 100%;
+        padding: 0;
+    }
+
+    .search__finder-title {
+        margin-left: 5px;
+        margin-bottom: 15px;
+    }
+
+    .search__finder-line {
+        margin-bottom: 30px;
+        margin-left: 5px;
+    }
+
+    .select-wrapper {
+        justify-content: center;
+        row-gap: 20px;
+        margin-bottom: 30px;
+    }
+
+    .search__select {
+        width: 90%;
+    }
+
+    .search__button {
+        margin: 0 auto;
+    }
+
+    .first-promo {
+        height: fit-content;
+        margin: 0 0 80px 0;
+        background-position-y: 180px;
+        justify-content: center;
+    }
+
+    .first-promo-wrapper {
+        width: 100%;
+        text-align: center;
+    }
+
+    .first-promo__button {
+        margin-bottom: 40px;
+    }
+
+    .destinations {
+        margin: 0 0 100px 0;
+    }
+
+    .destinations-title-wrapper {
+        margin-bottom: 30px;
+        flex-direction: column;
+    }
+
+    .destinations-cards {
+        overflow: scroll;
+        justify-content: flex-start;
+        gap: 25px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .destinations__card {
+        width: 261px;
+    }
+
+    .app {
+        height: fit-content;
+        margin: 0 0 70px 0;
+        align-items: flex-start;
+        background-position-y: 150px;
+        background-position-x: -780px;
+    }
+
+    .app-wrapper {
+        width: 100%;
+        text-align: center;
+    }
+
+    .app__text-wrapper {
+        width: 100%;
+    }
+
+    .app__button {
+        margin-bottom: 40px;
+    }
+
+    .reviews {
+        margin: 0 0 80px 0;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .reviews-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .reviews__title {
+        margin-bottom: 20px;
+    }
+
+    .reviews-text-wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .reviews-mark {
+        margin-bottom: 20px;
+    }
+
+    .reviews__text {
+        margin-bottom: 20px;
+    }
+
+    .reviews__name {
+        line-height: 40px;
+    }
+
+    .reviews__profession {
+        line-height: 40px;
+    }
+
+    .reviews-photo-wrapper {
+        width: 100%;
+        height: 450px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .reviews-switch {
+        margin-bottom: 12px;
+        margin-right: 23px;
+    }
+
+    .stories {
+        height: fit-content;
+        margin: 0 0 80px 0;
+        padding: 0;
+        background-image: none;
+    }
+    .stories-title-wrapper {
+        margin-bottom: 30px;
+        flex-direction: column;
+    }
+
+    .stories-wrapper {
+        overflow: scroll;
+        justify-content: flex-start;
+        gap: 25px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .stories-card {
+        width: 261px;
+        min-width: 261px;
+    }
+
+    .footer {
+        height: fit-content;
+        padding: 10px;
+    }
+
+    .footer-wrapper {
+        height: fit-content;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .footer-copyright {
+        width: 100%;    
+        text-align: center;
+    }
+
+    .footer-copyright__text {
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+
+    .footer-destinations {
+        display: none;
+    }
+
+    .footer-shop {
+        display: none;
+    }
+
+    .footer-interests {
+        display: none;
+    }
+
+    .footer-social {
+        margin: 0 auto 20px;
+    }
+}
