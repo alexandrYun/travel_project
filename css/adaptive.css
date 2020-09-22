@@ -5,6 +5,7 @@
     }
 
     .header {
+        min-width: 100%;
         margin: 0;
         background-image: url(../image/footer_circle.png);
         background-repeat: no-repeat;
@@ -23,6 +24,7 @@
     }
 
     .search {
+        min-width: 100%;
         height: fit-content;
         margin: 0 0 80px 0;
         background-size: contain;
@@ -104,6 +106,7 @@
     }
 
     .app {
+        min-width: 100%;
         height: fit-content;
         margin: 0 0 70px 0;
         align-items: flex-start;
@@ -202,6 +205,7 @@
     }
 
     .footer {
+        min-width: 100%;
         height: fit-content;
         padding: 10px;
     }

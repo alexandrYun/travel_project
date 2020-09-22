@@ -1,4 +1,5 @@
 .search {
+    min-width: 1033px;
     height: 654px;
     background-image: url(../image/human.png);
     background-repeat: no-repeat;

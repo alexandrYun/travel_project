@@ -1,4 +1,5 @@
 .app {
+    min-width: 950px;
     height: 542px;
     margin: 0 9.5% 248px 15%;
     background-image: url(../image/app.png);
