@@ -1,4 +1,5 @@
 .first-promo {
+    min-width: 1033px;
     height: 550px;
     margin: 0 13.5% 292px 9%;
     background-image: url(../image/first-promo.png);
